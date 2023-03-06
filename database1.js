@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://mathavaraj:<muma2001>@cluster0.hw8zqo3.mongodb.net/backend_project?retryWrites=true&w=majority",
+  "mongodb+srv://mathavaraj:muma2001@cluster0.hw8zqo3.mongodb.net/backend_project?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     if (err) {
