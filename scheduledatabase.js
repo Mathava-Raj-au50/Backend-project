@@ -26,5 +26,5 @@ const Slots = new mongoose.model("schedule_collection", scheduleSchema);
 app.listen(6000, () => {
   console.log("Listening to MongoDB on port 5000");
 });
-
+ 
 module.exports = Slots;
