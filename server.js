@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 const bcrypt = require("bcrypt");
-const User = require("./database1");
-const Slots = require("./scheduledatabase");
+const User = require("./models/database1");
+const Slots = require("./models/scheduledatabase");
 const cookieParser = require("cookie-parser");
 const { urlencoded } = require("express");
-const verifyToken = require("./verifyToken");
+const verifyToken = require("./routes/verifyToken");
 const jwt = require("jsonwebtoken");
 const bodyparser = require("body-parser");
 
